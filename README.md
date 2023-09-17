@@ -7,9 +7,10 @@ This repository documents our analysis of a comprehensive diamond dataset, where
 
 **Exploratory Data Analysis (EDA) & Preprocessing:**
 
-**T1. Explore the dataset assigned to your team and provide:
+**T1. Explore the dataset assigned to your team and provide:**
 
-a. A summary of the dataset (should include information columns present, attribute types, null values, and a summary of each attribute).**
+**a. A summary of the dataset (should include information columns present, attribute types, null values, and a summary of each attribute).**
+
 
 *Summary of the dataset and features:*
 
@@ -20,6 +21,7 @@ This dataset contains comprehensive information about diamonds, including their 
 The data is ideal for projects related to diamond analysis, pricing prediction, and exploring factors affecting diamond quality and value. It can aid in understanding consumer preferences, assisting jewelers in inventory management, and guiding potential investors in the diamond market.
 
 Researchers can leverage this dataset to gain valuable insights into the diamond industry. They can explore how different factors, such as carat weight, cut quality, and color, affect the desirability and value of diamonds.
+
 
 *Summary of the data:*
 
@@ -116,7 +118,6 @@ These features provide the absolute measurements of the diamond, including its l
 
 The girdle is the outer edge of the diamond, and these values likely describe the minimum and maximum thickness of the girdle. The girdle thickness can affect how light is reflected within the diamond.
 
-
 18. Total Sales Price: 
 
 This feature indicates the price of the diamond in dollars, representing its market value or cost.
@@ -124,6 +125,8 @@ This feature indicates the price of the diamond in dollars, representing its mar
 Understanding these features is essential for assessing the quality and value of a diamond when buying or evaluating its worth in the jewelry market.
 
 **Note:** Attribute types and null values have been mentioned in the code itself.
+
+
 
 **b. Data Visualization, summarizing insights about the dataset through EDA.**
 
@@ -148,6 +151,8 @@ Among these two problems, the best one is the prediction of the sale price of th
 •	**Market Insights:** Understanding the factors that influence diamond prices can provide valuable insights into market trends and consumer preferences.
 
 •	**Practical Application:** Predicting sales prices is a common problem in the diamond industry. Solving this problem can directly benefit businesses and professionals in the field.
+
+
 
 **T3. Build an end-to-end Machine Learning pipeline for your assigned dataset for the aforementioned most interesting regression problems found in T2. Your pipeline should include components for dataset preprocessing, transformation, regression model building hyperparameter tuning, grid search or optimization, and evaluation. Report results on the regression models with hyperparameter tuning, and report the best hyperparameter values. Report results using at least two relevant evaluation metrics like RMSE, MAE.
 Compare results for different models and give the reasoning for that.**
@@ -185,6 +190,7 @@ The best model for this prediction is ‘XGB Regressor’ with hyperparameter le
 This project showcases our comprehensive analysis of the diamond dataset, highlighting the importance of EDA, data preprocessing, and regression analysis.
 
 All the analysis has been done in the code file along with the best model prediction for the problem.
+
 
 
 **CONTRIBUTIONS:**
