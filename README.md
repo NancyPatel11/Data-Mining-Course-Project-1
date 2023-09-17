@@ -1,16 +1,19 @@
-T03 Diamond Dataset Analysis 
+**T03 Diamond Dataset Analysis**
+--
 
-Overview
+**Overview**
 This repository documents our analysis of a comprehensive diamond dataset, where we performed exploratory data analysis (EDA), data pre-processing, and regression analysis. Following is an overview of the key outcomes of our dataset.
-Exploratory Data Analysis (EDA) & Preprocessing:
-T1. Explore the dataset assigned to your team and provide:
-a. A summary of the dataset (should include information columns present, attribute types, null values, and a summary of each attribute).
-Summary of the dataset and features:
+**Exploratory Data Analysis (EDA) & Preprocessing:**
+
+**T1. Explore the dataset assigned to your team and provide:
+a. A summary of the dataset (should include information columns present, attribute types, null values, and a summary of each attribute).**
+*Summary of the dataset and features:*
 "The Largest Diamond Dataset Currently on Kaggle" is a comprehensive and extensive dataset that contains a wealth of information about diamonds. It reflects real-world information about diamonds, making it relevant for practical applications. 
 This dataset contains comprehensive information about diamonds, including their various attributes such as carat weight, cut quality, color, clarity, depth percentage, table percentage, price, and more. Due to its diverse attributes, this dataset is versatile and can be used for a myriad of purposes.
 The data is ideal for projects related to diamond analysis, pricing prediction, and exploring factors affecting diamond quality and value. It can aid in understanding consumer preferences, assisting jewelers in inventory management, and guiding potential investors in the diamond market.
 Researchers can leverage this dataset to gain valuable insights into the diamond industry. They can explore how different factors, such as carat weight, cut quality, and color, affect the desirability and value of diamonds.
-Summary of the data:
+
+*Summary of the data:*
 The various features of the Diamond Dataset are discussed below:
 1. Cut: 
 This feature describes the cut of a diamond. The cut of a diamond refers to how well it has been shaped and faceted from its rough form. The dataset mentions that there are around 10 common diamond cuts, with an additional one called the 'Cushion Modified.' Diamond shapes are an essential aspect of a diamond's appearance. Common diamond shapes include round, princess, emerald, pear, and more. Different shapes can affect how light interacts with the diamond and can influence its visual appeal. The cut of a diamond significantly affects its brilliance and overall visual appeal.
@@ -82,23 +85,24 @@ Understanding these features is essential for assessing the quality and value of
 Note:
 Attribute types and null values have been mentioned in the code itself.
 
-b. Data Visualization, summarizing insights about the dataset through EDA.
+**b. Data Visualization, summarizing insights about the dataset through EDA.
 All the insights have been mentioned in the ML_total_sales_price_prediction.ipynb and ML_carat_weight_prediction.ipynb file along with the code.
-The reasoning for each of the preprocessing steps has also been provided wherever needed.
+The reasoning for each of the preprocessing steps has also been provided wherever needed.**
 
-Regression Analysis:
-T2. Identify and list regression problems on your assigned dataset. Which one does seem the most interesting to you and why?
+**Regression Analysis:
+T2. Identify and list regression problems on your assigned dataset. Which one does seem the most interesting to you and why?**
 We have identified two regression problems on our Diamond Dataset:
 1.	Predicting the sales price of the diamond.
 2.	Predicting the carat weight of the diamond.
 Among these two problems, the best one is the prediction of the sale price of the diamond due to following reasons:
-•	Business Impact: Predicting the sales price directly relates to the financial aspect of the diamond industry. It can help businesses make informed decisions about pricing, marketing, and inventory management.
-•	Customer Engagement: Knowing the expected sales price can help jewelers communicate more effectively with customers. They can provide accurate price estimates and potentially increase customer satisfaction.
-•	Market Insights: Understanding the factors that influence diamond prices can provide valuable insights into market trends and consumer preferences.
-•	Diverse Features: The dataset contains various features (e.g., cut, color, clarity, carat weight, etc.) that can potentially influence the sales price. This allows for a comprehensive analysis and potentially meaningful predictions.
-•	Practical Application: Predicting sales prices is a common problem in the diamond industry. Solving this problem can directly benefit businesses and professionals in the field.
-T3. Build an end-to-end Machine Learning pipeline for your assigned dataset for the aforementioned most interesting regression problems found in T2. Your pipeline should include components for dataset preprocessing, transformation, regression model building hyperparameter tuning, grid search or optimization, and evaluation. Report results on the regression models with hyperparameter tuning, and report the best hyperparameter values. Report results using at least two relevant evaluation metrics like RMSE, MAE.
-Compare results for different models and give the reasoning for that.
+•	**Business Impact:** Predicting the sales price directly relates to the financial aspect of the diamond industry. It can help businesses make informed decisions about pricing, marketing, and inventory management.
+•	**Customer Engagement:** Knowing the expected sales price can help jewelers communicate more effectively with customers. They can provide accurate price estimates and potentially increase customer satisfaction.
+•	**Market Insights:** Understanding the factors that influence diamond prices can provide valuable insights into market trends and consumer preferences.
+•	**Practical Application:** Predicting sales prices is a common problem in the diamond industry. Solving this problem can directly benefit businesses and professionals in the field.
+
+**T3. Build an end-to-end Machine Learning pipeline for your assigned dataset for the aforementioned most interesting regression problems found in T2. Your pipeline should include components for dataset preprocessing, transformation, regression model building hyperparameter tuning, grid search or optimization, and evaluation. Report results on the regression models with hyperparameter tuning, and report the best hyperparameter values. Report results using at least two relevant evaluation metrics like RMSE, MAE.
+Compare results for different models and give the reasoning for that.**
+
 •	End-to-End Machine Learning Pipeline
 
 We developed an end-to-end machine learning pipeline for the selected regression problem. Our pipeline includes the following components:
@@ -109,32 +113,32 @@ Regression model building
 Hyperparameter tuning
 Model evaluation
 
-Evaluation Metrics: We assessed the performance of our regression models using at least two relevant evaluation metrics, such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
+**Evaluation Metrics:** We assessed the performance of our regression models using at least two relevant evaluation metrics, such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
 
-Model Comparison: We compared the results for different regression models like Linear Regression, Polynomial Regression, XGBoost Regressor and Random Forest Regressor, and provided the reasoning behind our choices.
+**Model Comparison:** We compared the results for different regression models like Linear Regression, Polynomial Regression, XGBoost Regressor and Random Forest Regressor, and provided the reasoning behind our choices.
 
-Results: 
+**Results:** 
 1.	Total Sales Price Prediction:
 The best model for this prediction is ‘Polynomial Regression’ with hyperparameter degree 2.
 
 2.	Carat Weight Prediction:
 The best model for this prediction is ‘XGB Regressor’ with hyperparameter learning_rate of 0.1 and n_estimators as 710.
 
-Conclusion
+**Conclusion:**
 This project showcases our comprehensive analysis of the diamond dataset, highlighting the importance of EDA, data preprocessing, and regression analysis.
 
 All the analysis has been done in the code file along with the best model prediction for the problem.
 
 
-CONTRIBUTIONS:
+**CONTRIBUTIONS:**
 Each member conducted an individual Exploratory Data Analysis (EDA), which can be accessed in their respective branches, named after the team member. These individual analyses served as a foundation for our collective understanding of the dataset's characteristics.
 Following the EDA phase, we convened for joint efforts in preprocessing the dataset, identifying regression problems, and implementing various regression models.  Several meetings were held and the code was written during those meets. 
 
-Team members :
+**Team members :**
 
-1.	Deven Patel		(202101264)
+1.	Deven Patel	(202101264)
 2.	Takshay Makadia	(202101414)
 3.	Sakshi Patadiya	(202101469)
-4.	Nancy Patel              (202101491)     (Leader)
-5.	Ishita Rathod		(202101516)
+4.	Nancy Patel (202101491) (Leader)
+5.	Ishita Rathod	(202101516)
 
